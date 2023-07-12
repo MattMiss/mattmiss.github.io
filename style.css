@@ -47,6 +47,7 @@ a{
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    z-index:1
 }
 
 .nav-branding{
@@ -251,9 +252,6 @@ a{
     transition: background-color 0.6s ease;
 }
 
-.active{
-    background-color: #717171;
-}
 
 .fade{
     animation: fade 1.5s;
@@ -288,6 +286,16 @@ a{
 
 .cover-image-container, .cover-image-container img{
     overflow-x: hidden;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 
 @keyframes fade{
@@ -336,6 +344,7 @@ a{
         width: 100%;
         text-align: center;
         transition: 0.3s;
+        opacity: 0%;
     }
 
     .nav-item{
@@ -344,6 +353,7 @@ a{
 
     .nav-menu.active{
         left: 0;
+        opacity: 100%;
     }
 
     .nav-branding{
@@ -360,6 +370,10 @@ a{
 
     .video-wrapper iframe {
         height: 260px;
+    }
+
+    .gamedev-card{
+        width: 90%;
     }
 }
 
