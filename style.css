@@ -286,6 +286,10 @@ a{
     height: 550px;
 }
 
+.cover-image-container{
+    overflow-x: hidden;
+}
+
 @keyframes fade{
     from {opacity: .4}
     to {opactiy: 1}
