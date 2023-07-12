@@ -286,7 +286,7 @@ a{
     height: 550px;
 }
 
-.cover-image-container{
+.cover-image-container, .cover-image-container img{
     overflow-x: hidden;
 }
 
