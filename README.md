@@ -7,3 +7,8 @@ This repository contains the static files for my portfolio website hosted on Git
 
 ## Deployment Notes
 This site is built using [Gatsby](https://www.gatsbyjs.com/) and deployed by copying the contents of the `public` folder to this repository.
+
+## License
+Copyright (c) 2024 Matthew Miss
+All rights reserved. The content of this site is provided for viewing purposes only. No part of this website may be copied or reused without explicit permission.
+
